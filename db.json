@@ -1,70 +1,14 @@
 {
-    "products": [
-      {
-        "id": "e9954d98-e9bf-566b-9bd0-fcd104b391a8",
-        "name": "Table",
-        "description": "Bebnem mebpavil mudojzur buwrihlon pufug risezgel lebdo uktopa al zotfa pemrusvah fotum josroj upef diwkocgu culupowo.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      },
-      {
-        "id": "ae078666-fcba-5fa9-b14b-6022f3705ada",
-        "name": "Fish",
-        "description": "Afuri ezkip nezupus je hucava mikak im lermaud erufta gukawhi kuino huspip wawipe deficben gi tazojco.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      },
-      {
-        "id": "0741a74d-a145-58a7-ba97-951b7c9ac2b8",
-        "name": "Sausages",
-        "description": "Bo icotavuge huzeb ejewoh as potom mec weza hu ziloc ibi enejog.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.gif"
-      },
-      {
-        "id": "d2dd9016-df27-520c-8b61-defa76decdb3",
-        "name": "Chair",
-        "description": "Ujitavla apgek ojbitbo tal ucsujoh jurnu cahmorcic bepuwzof rij tizovif ebarig caibaim ahlehov viwa zop fojhagcep.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.jpg"
-      },
-      {
-        "id": "f59e494f-d952-590d-8e55-4c50d1daef66",
-        "name": "Shirt",
-        "description": "Ec ero ret puarele mov ise to wodja nohiaw cuhnosedi rogugsok jam kufab gofon adoeji ne afveiwo.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      },
-      {
-        "id": "bca743cd-813d-5ce7-8dcf-9a5ffd23c153",
-        "name": "Soap",
-        "description": "Juebwic ta webfuvu ilpizin cob hucez mom cecetel wef ivrolave vorcis kipziren pulok to hutez diwunu.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.jpg"
-      },
-      {
-        "id": "b1abb438-5d1d-52c1-a58f-7e441abb2efb",
-        "name": "Ball",
-        "description": "Opovo zug evakefot owu unene new niipozu bavjerig puh ef bomnuco ikeheka jem owilve wa.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.gif"
-      },
-      {
-        "id": "ed47db8d-8870-5341-9f7c-7a9de6a80326",
-        "name": "Ball",
-        "description": "Cagov han hatgoco jacrocip za ozriwlos pibazen webammu holikno le du sel bihcok lejdicab ose.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      },
-      {
-        "id": "c885e760-9042-5c0b-9dfd-198a5680b00c",
-        "name": "Chair",
-        "description": "Pucmicib liwul jej vew da ubezatof muvi detediego kikojuloc ugsu reweg emo.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      },
-      {
-        "id": "61aa3e3c-c390-5dd1-b3e3-565b283cdc0c",
-        "name": "Cheese",
-        "description": "Segew goire kizrile killa mopo ba ad gi ma uwse wapolfo ambusos ipaafoozo vuwoho woshowi rosor dal losza.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.jpg"
-      },
-      {
-        "id": "3902fd55-5bd0-5d68-9b44-6906c4c7182e",
-        "name": "Computer",
-        "description": "Mupakigi emeohu ewezi dof kois jonne sozfuw labeno wuw valu necuk ajimabec.",
-        "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
-      }
-    ]
+    "posts": [
+      { "id": 1, "title": "Post 1" },
+      { "id": 2, "title": "Post 2" },
+      { "id": 3, "title": "Post 3" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 },
+      { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
   }
