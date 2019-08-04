@@ -18,5 +18,120 @@
             "description": "Bo icotavuge huzeb.",
             "imageUrl": "http://api.adorable.io/avatars/100/belide.gif"
         }
+    ],
+    "posts": [
+        {
+            "id": "516bc971-9123-5f01-909a-436abfa5694a",
+            "createdTime": "Sun Mar 10 2019 08:16:23 GMT+0100 (czas środkowoeuropejski standardowy)",
+            "author": {
+                "id": "d9ee7f1d-d4b0-5a8c-9df9-3ebb3717b37b",
+                "name": "Florian Gislason",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+            },
+            "body": "Uri uvaer zir kofmi borahon nimrijik co dubucazo kodno dasini kalbum lejcon rew.",
+            "images": [
+                "https://picsum.photos/id/268/300/150/"
+            ]
+        },
+        {
+            "id": "5d57a7ab-98e4-5f10-8871-7e6d76b54ce7",
+            "createdTime": "Thu Nov 08 2018 04:24:57 GMT+0100 (czas środkowoeuropejski standardowy)",
+            "author": {
+                "id": "7847e5c5-56dc-5555-b038-3bf7f8c27c06",
+                "name": "Darien Dooley",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/andyisonline/128.jpg"
+            },
+            "body": "Udo so ucuzigi pab ewtutoz ze du je do vevnoak coasul vep zikluta.",
+            "images": [
+                "https://picsum.photos/id/625/300/150/",
+                "https://picsum.photos/id/352/300/150/",
+                "https://picsum.photos/id/282/300/150/",
+                "https://picsum.photos/id/362/300/150/"
+            ]
+        },
+        {
+            "id": "5637ba32-ce5f-551c-a780-bf8622f04e9b",
+            "createdTime": "Mon Dec 10 2018 17:38:21 GMT+0100 (czas środkowoeuropejski standardowy)",
+            "author": {
+                "id": "c1fe906b-345a-5bd7-abcc-c0a8237d3b29",
+                "name": "Zoey Bernier",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/timgthomas/128.jpg"
+            },
+            "body": "Pelug azaceuj wafzabab hatu uhrurifi neb ec tadidpaj fu ihkiggum utuli kosi lihnap.",
+            "images": [
+                "https://picsum.photos/id/522/300/150/",
+                "https://picsum.photos/id/666/300/150/",
+                "https://picsum.photos/id/70/300/150/",
+                "https://picsum.photos/id/677/300/150/",
+                "https://picsum.photos/id/426/300/150/"
+            ]
+        }
+    ],
+    "photos": [
+        {
+            "id": "ab525582-1b87-53c2-bbf5-6f9b24cf05f9",
+            "createdTime": "Tue Jun 04 2019 15:41:08 GMT+0200 (czas środkowoeuropejski letni)",
+            "author": {
+                "id": "5cf61029-a93d-5fbf-84c3-557e22ba1ec0",
+                "name": "Frankie Sporer",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/kohette/128.jpg"
+            },
+            "description": "Wus seghafge vahlagzan ronuse vic medadasi kemuc gudokvad vaivomam avfik baasva efide pita hurzalag ke.",
+            "imageUrl": "https://picsum.photos/id/345/300/150/"
+        },
+        {
+            "id": "3c51220a-dd97-505b-b53b-dd8a7e2ce655",
+            "createdTime": "Sun Aug 05 2018 14:41:09 GMT+0200 (czas środkowoeuropejski letni)",
+            "author": {
+                "id": "5ae3524b-f83d-5074-b384-88c812f8fd03",
+                "name": "Michale Morar",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/kanickairaj/128.jpg"
+            },
+            "description": "Zet kuzwej jog viegi fimsecho elove varepkav zi bamdasju wa vu nagja.",
+            "imageUrl": "https://picsum.photos/id/592/300/150/"
+        },
+        {
+            "id": "896f8bf9-29d3-58f0-a20e-7feb611df0ed",
+            "createdTime": "Sat Sep 22 2018 09:07:04 GMT+0200 (czas środkowoeuropejski letni)",
+            "author": {
+                "id": "cfb1d903-1c91-5c14-a029-f0fc5621ad7f",
+                "name": "Louie Harvey",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/robturlinckx/128.jpg"
+            },
+            "description": "Be badwok uvdilze favel gif safo niwizkuc rujer zi fic aroru zecdef ok.",
+            "imageUrl": "https://picsum.photos/id/1061/300/150/"
+        }
+    ],
+    "tweets": [
+        {
+            "id": "56d3055f-de0e-56e2-bffc-5f27813d965b",
+            "createdTime": "Tue Apr 16 2019 18:18:04 GMT+0200 (czas środkowoeuropejski letni)",
+            "author": {
+                "id": "b73135ab-7998-5fb2-b3f8-1613e11912ed",
+                "name": "Lera Waelchi",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/markretzloff/128.jpg"
+            },
+            "body": "Nognej wanive bafli tuluhvuh pov lo cuwabago ozoktan so banet rucfu rurtaz rejcibo neg galmufo."
+        },
+        {
+            "id": "1c3d0803-1020-5575-8d53-4f4905e275e3",
+            "createdTime": "Wed Jul 03 2019 18:36:18 GMT+0200 (czas środkowoeuropejski letni)",
+            "author": {
+                "id": "0476b5ae-da49-5411-9579-6a848b7dd6e8",
+                "name": "Otha Renner",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/shanehudson/128.jpg"
+            },
+            "body": "Mu ci fuz zaruwod zi suffim hewotor sitmocar jan lickig faz sow ibi."
+        },
+        {
+            "id": "15b72be2-9d7b-5ada-8d44-a1160b56153f",
+            "createdTime": "Sat Feb 16 2019 03:56:28 GMT+0100 (czas środkowoeuropejski standardowy)",
+            "author": {
+                "id": "5e400af3-df83-5dc3-b292-0971cb3a55a0",
+                "name": "Ila Labadie",
+                "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/rickdt/128.jpg"
+            },
+            "body": "Re amenu furnifu sugare evi ba cadofrov bafgeif me mouzo fojajji pawebij lu se ra."
+        }
     ]
 }
