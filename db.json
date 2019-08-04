@@ -1,14 +1,22 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "products": [
+        {
+            "id": "e9954d98-e9bf-566b-9bd0-fcd104b391a8",
+            "name": "Table",
+            "description": "Bebnem mebpavil mudojzur buwrihlon pufug risezgel lebdo uktopa al zotfa pemrusvah fotum josroj upef diwkocgu culupowo.",
+            "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
+        },
+        {
+            "id": "ae078666-fcba-5fa9-b14b-6022f3705ada",
+            "name": "Fish",
+            "description": "Afuri ezkip nezupus je hucava mikak im lermaud erufta gukawhi kuino huspip wawipe deficben gi tazojco.",
+            "imageUrl": "http://api.adorable.io/avatars/100/belide.png"
+        },
+        {
+            "id": "0741a74d-a145-58a7-ba97-951b7c9ac2b8",
+            "name": "Sausages",
+            "description": "Bo icotavuge huzeb ejewoh as potom mec weza hu ziloc ibi enejog.",
+            "imageUrl": "http://api.adorable.io/avatars/100/belide.gif"
+        }
+    ]
+}
