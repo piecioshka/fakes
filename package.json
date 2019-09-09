@@ -1,0 +1,23 @@
+{
+    "name": "fakes",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "start": "json-server db.json --port $PORT --host 0.0.0.0",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "git push -f heroku master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/piecioshka/fakes.git"
+    },
+    "dependencies": {
+        "json-server": "^0.15.1"
+    }
+}
