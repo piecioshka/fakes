@@ -1,4 +1,21 @@
 {
+    "users": [
+        {
+            "id": "d9ee7f1d-d4b0-5a8c-9df9-3ebb3717b37b",
+            "name": "Florian Gislason",
+            "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+        },
+        {
+            "id": "7847e5c5-56dc-5555-b038-3bf7f8c27c06",
+            "name": "Darien Dooley",
+            "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/andyisonline/128.jpg"
+        },
+        {
+            "id": "c1fe906b-345a-5bd7-abcc-c0a8237d3b29",
+            "name": "Zoey Bernier",
+            "avatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/timgthomas/128.jpg"
+        }
+    ],
     "products": [
         {
             "id": "e9954d98-e9bf-566b-9bd0-fcd104b391a8",
