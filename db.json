@@ -157,6 +157,7 @@
             "createdTime": "Wed Sep 11 2019 23:55:34 GMT+0200 (czas środkowoeuropejski letni)",
             "eventTime": "Mon Nov 25 2019 01:25:09 GMT+0100 (czas środkowoeuropejski standardowy)",
             "venue": "195 Sabrina Inlet, East Francesshire, Honduras",
+            "banner": "https://picsum.photos/id/40/300/150",
             "author": {
                 "id": "be2d44a0-7bcc-5dd9-9d56-8150f54054e8",
                 "name": "Nikki Kulas",
@@ -170,6 +171,7 @@
             "createdTime": "Wed Feb 27 2019 05:33:53 GMT+0100 (czas środkowoeuropejski standardowy)",
             "eventTime": "Tue Oct 01 2019 17:05:57 GMT+0200 (czas środkowoeuropejski letni)",
             "venue": "7293 Willa Canyon, Roweborough, Turkmenistan",
+            "banner": "https://picsum.photos/id/60/300/150",
             "author": {
                 "id": "3f28f18d-6ba8-5857-b2dd-42e890712acf",
                 "name": "Eloisa Kerluke",
@@ -183,6 +185,7 @@
             "createdTime": "Wed Aug 21 2019 01:50:51 GMT+0200 (czas środkowoeuropejski letni)",
             "eventTime": "Fri Mar 22 2019 06:57:30 GMT+0100 (czas środkowoeuropejski standardowy)",
             "venue": "0764 Grimes Forest, East Junius, Cyprus",
+            "banner": "https://picsum.photos/id/80/300/150",
             "author": {
                 "id": "32fde077-e30a-5e64-b5f0-f25f9bb6453a",
                 "name": "Cielo Schiller",
@@ -196,6 +199,7 @@
             "createdTime": "Thu Oct 31 2019 00:31:27 GMT+0100 (czas środkowoeuropejski standardowy)",
             "eventTime": "Mon Mar 04 2019 07:36:19 GMT+0100 (czas środkowoeuropejski standardowy)",
             "venue": "939 Schmitt Square, Timmothyside, Brazil",
+            "banner": "https://picsum.photos/id/100/300/150",
             "author": {
                 "id": "07e84402-5f94-5835-9301-3f34e1da6635",
                 "name": "Andy Grady",
@@ -209,6 +213,7 @@
             "createdTime": "Tue May 21 2019 09:12:07 GMT+0200 (czas środkowoeuropejski letni)",
             "eventTime": "Mon Sep 30 2019 20:36:27 GMT+0200 (czas środkowoeuropejski letni)",
             "venue": "4658 Meaghan Haven, West Crystelmouth, Italy",
+            "banner": "https://picsum.photos/id/120/300/150",
             "author": {
                 "id": "4421a2ad-0028-50d2-8f05-75663ddde9f9",
                 "name": "Harry Klocko",
