@@ -153,7 +153,7 @@
         "avatarUrl": "//www.gravatar.com/avatar/d4d0bccdcd559fd620316c6bfbfc4318"
       },
       "body": "Iz oju densiju mifzuk fikhurug oce vugeudi biuhger ruwozuoto pin nah moci zacul gejzozzag eti.",
-      "likes": "3"
+      "likes": 3
     },
     {
       "id": "7e3c3b95-e6d4-55fd-b38c-8ecfb58b1f27",
@@ -164,7 +164,7 @@
         "avatarUrl": "//www.gravatar.com/avatar/8fa20a933dfb4bd73eda7b3eef8a9197"
       },
       "body": "Vi ajse jubodozel deg geksi kijumo leni golbe meonja bubfat leg hegiharu uznojog fe.",
-      "likes": "5"
+      "likes": 5
     },
     {
       "id": "1bdb3d28-4638-5237-bb24-cad99ec73a4b",
@@ -175,7 +175,18 @@
         "avatarUrl": "//www.gravatar.com/avatar/1b6db85855c239b354b621b87b7061b1"
       },
       "body": "So zerod go adisal pogoho eh ifkiip bivtardu os dilnomhi neogiwu zi hamanni ganifha wosdeaka gedokpaz kiop mitoke.",
-      "likes": "7"
+      "likes": 7
+    },
+    {
+      "id": "2994f9df-e505-5c3f-b45a-af0d3494a1ec",
+      "createdTime": "Tue Mar 30 2021 20:34:00 GMT+0200 (Central European Summer Time)",
+      "author": {
+        "id": "1b7ba096-2214-59ae-926d-9195f7eb2ce9",
+        "name": "George Ruiz",
+        "avatarUrl": "//www.gravatar.com/avatar/1b6db85855c239b354b621b87b7061b1"
+      },
+      "body": "Nilu suzgebpi af gekmug dap wipe ogesioku jo umifog wece gail huggeran dod rapimpu zav minejbu wi.",
+      "likes": 13
     }
   ],
   "events": [
