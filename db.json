@@ -263,24 +263,39 @@
   ],
   "videos": [
     {
-      "id": "cc2cd900-194b-55eb-bfaa-e3dd43cf9fcb",
-      "title": "Hilda Ingram",
-      "description": "Ziroze ti polef odi efpob udiku ret jijvonut gurni danu vugul ho.",
-      "thumbUrl": "http://lorempixel.com/640/480/business",
+      "id": "78db7274-8588-5114-bbfe-6b6fb50797f2",
+      "title": "Compatible exuding hardware",
+      "description": "Azubocso vi ji uvtagin jozda puviwdem zefajuf cojoji saag baz vecila wok kojsutze we eplag.",
+      "author": {
+        "id": "f9bdd2e4-37fd-5eee-bb4e-a7c5f0f08a03",
+        "name": "Rhoda Bates",
+        "avatarUrl": "//www.gravatar.com/avatar/d0570eec2aa474d18fa218181f051077"
+      },
+      "thumbUrl": "http://lorempixel.com/640/480/cats",
       "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_5MB.mp4"
     },
     {
-      "id": "3154bce8-e1ff-5eec-b5ab-c06f53e7f6ce",
-      "title": "Adele Drake",
-      "description": "Waiwe vevpene kabgur tepveabe fepki ufaza loflo cowleduvo so po wetce aji.",
-      "thumbUrl": "http://lorempixel.com/640/480/technics",
+      "id": "12d742d7-5956-5f17-a405-a9774058586d",
+      "title": "Digitized object-oriented Graphical User Interface",
+      "description": "Rujralce ba toh fan iki pof wokdi re hudfore lifem imwij vifoloz zusbade azci gu gijbiak kab.",
+      "author": {
+        "id": "410989b8-4ff8-5a7d-bceb-5c8354f33806",
+        "name": "Isabelle Boyd",
+        "avatarUrl": "//www.gravatar.com/avatar/48dae1b1d98a054434a9cf9364e4793a"
+      },
+      "thumbUrl": "http://lorempixel.com/640/480/business",
       "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4"
     },
     {
-      "id": "172087a1-8a7a-50e5-acbd-7105e3873eb9",
-      "title": "Rosa Nguyen",
-      "description": "Pa onpu rampuwev owroffug il daf rurtezit ewudam evawe utijok sictotzu tipemif.",
-      "thumbUrl": "http://lorempixel.com/640/480/business",
+      "id": "f3fff727-1085-5e36-92b8-8bb861117faf",
+      "title": "Reactive high-level installation",
+      "description": "Du jukisevaz lefkojo limomi se hehu upi hisacu nocazoro nu acujih mampakug fi el.",
+      "author": {
+        "id": "d5eff100-5535-5e67-ae92-c2222cf5c8b4",
+        "name": "Matthew Lewis",
+        "avatarUrl": "//www.gravatar.com/avatar/8065651ba6daf54a7ce4bc5c75da1ecb"
+      },
+      "thumbUrl": "http://lorempixel.com/640/480/people",
       "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_30MB.mp4"
     }
   ]
