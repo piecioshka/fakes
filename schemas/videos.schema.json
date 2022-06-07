@@ -1,0 +1,46 @@
+{
+    "id": "videos",
+    "type": "array",
+    "minItems": 20,
+    "mxnItems": 20,
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "title",
+            "description",
+            "thumbUrl",
+            "videoUrl"
+        ],
+        "properties": {
+            "id": {
+                "chance": {
+                    "guid": {}
+                }
+            },
+            "title": {
+                "type": "string"
+            },
+            "description": {
+                "chance": {
+                    "paragraph": {
+                        "sentences": 1
+                    }
+                }
+            },
+            "thumbUrl": {
+                "type": "string",
+                "faker": {
+                    "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
+                }
+            },
+            "videoUrl": {
+                "type": "string",
+                "faker": {
+                    "fake": "https://www.youtube.com/embed/{{random.alphaNumeric(10)}}"
+                }
+            }
+        }
+    }
+}

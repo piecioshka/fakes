@@ -1,0 +1,39 @@
+{
+    "id": "products",
+    "type": "array",
+    "minItems": 50,
+    "maxItems": 50,
+    "items": {
+        "type": "object",
+        "required": [
+          	"id",
+            "name",
+            "description",
+            "imageUrl"
+        ],
+        "properties": {
+            "id": {
+                "chance": {
+                    "guid": {}
+                }
+            },
+            "name": {
+                "type": "string",
+                "faker": "commerce.product"
+            },
+            "description": {
+                "chance": {
+                    "paragraph": {
+                        "sentences": 1
+                    }
+                }
+            },
+            "imageUrl": {
+                "type": "string",
+                "faker": {
+                    "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
+                }
+            }
+        }
+    }
+}

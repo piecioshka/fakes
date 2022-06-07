@@ -1,0 +1,62 @@
+{
+    "id": "tweets",
+    "type": "array",
+    "minItems": 5,
+    "maxItems": 5,
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "createdTime",
+            "author",
+            "body"
+        ],
+        "properties": {
+            "id": {
+                "chance": {
+                    "guid": {}
+                }
+            },
+            "createdTime": {
+                "type": "string",
+                "faker": {
+                    "fake": "{{date.past}}"
+                }
+            },
+            "author": {
+                "type": "object",
+                "required": [
+                    "id",
+                    "name",
+                    "avatarUrl"
+                ],
+                "properties": {
+                    "id": {
+                        "chance": {
+                            "guid": {}
+                        }
+                    },
+                    "name": {
+                        "type": "string",
+                        "faker": {
+                            "fake": "{{name.firstName}} {{name.lastName}}"
+                        }
+                    },
+                    "avatarUrl": {
+                        "type": "string",
+                        "faker": {
+                            "fake": "{{image.avatar}}"
+                        }
+                    }
+                }
+            },
+            "body": {
+                "chance": {
+                    "paragraph": {
+                        "sentences": 1
+                    }
+                }
+            }
+        }
+    }
+}
