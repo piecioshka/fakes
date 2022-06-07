@@ -1,11 +1,11 @@
 {
-  "id": "products",
+  "id": "tasks",
   "type": "array",
-  "minItems": 50,
-  "maxItems": 50,
+  "minItems": 5,
+  "maxItems": 5,
   "items": {
     "type": "object",
-    "required": ["id", "name", "description", "imageUrl"],
+    "required": ["id", "createdTime", "body", "state"],
     "properties": {
       "id": {
         "type": "string",
@@ -13,11 +13,13 @@
           "guid": {}
         }
       },
-      "name": {
+      "createdTime": {
         "type": "string",
-        "faker": "commerce.product"
+        "faker": {
+          "fake": "{{date.past}}"
+        }
       },
-      "description": {
+      "body": {
         "type": "string",
         "chance": {
           "paragraph": {
@@ -25,10 +27,10 @@
           }
         }
       },
-      "imageUrl": {
+      "state": {
         "type": "string",
-        "faker": {
-          "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
+        "chance": {
+          "pickone": [["new", "started", "done"]]
         }
       }
     }

@@ -1,0 +1,30 @@
+{
+  "id": "users",
+  "type": "array",
+  "minItems": 5,
+  "maxItems": 5,
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "avatarUrl"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "chance": {
+          "guid": {}
+        }
+      },
+      "name": {
+        "type": "string",
+        "faker": {
+          "fake": "{{name.firstName}} {{name.lastName}}"
+        }
+      },
+      "avatarUrl": {
+        "type": "string",
+        "chance": {
+          "avatar": {}
+        }
+      }
+    }
+  }
+}

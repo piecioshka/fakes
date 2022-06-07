@@ -13,11 +13,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git push -f heroku master"
   },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piecioshka/fakes.git"
-  },
-  "dependencies": {
-    "json-server": "^0.15.1"
+    "url": "git@github.com:piecioshka/fakes.git"
   }
 }

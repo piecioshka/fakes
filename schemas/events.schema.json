@@ -1,84 +1,91 @@
 {
-    "id": "events",
-    "type": "array",
-    "minItems": 5,
-    "maxItems": 5,
-    "items": {
-        "type": "object",
-        "required": [
-            "id",
-            "createdTime",
-            "eventTime",
-            "venue",
-            "author",
-            "title",
-            "body"
-        ],
-        "properties": {
-            "id": {
-                "chance": {
-                    "guid": {}
-                }
-            },
-            "createdTime": {
-                "type": "string",
-                "faker": {
-                    "fake": "{{date.past}}"
-                }
-            },
-            "eventTime": {
-                "type": "string",
-                "faker": {
-                    "fake": "{{date.past}}"
-                }
-            },
-            "venue": {
-                "type": "string",
-                "faker": {
-                    "fake": "{{address.streetAddress}}, {{address.city}}, {{address.country}}"
-                }
-            },
-            "author": {
-                "type": "object",
-                "required": [
-                    "id",
-                    "name",
-                    "avatarUrl"
-                ],
-                "properties": {
-                    "id": {
-                        "chance": {
-                            "guid": {}
-                        }
-                    },
-                    "name": {
-                        "type": "string",
-                        "faker": {
-                            "fake": "{{name.firstName}} {{name.lastName}}"
-                        }
-                    },
-                    "avatarUrl": {
-                        "type": "string",
-                        "faker": {
-                            "fake": "{{image.avatar}}"
-                        }
-                    }
-                }
-            },
-            "title": {
-                "chance": {
-                    "paragraph": {
-                        "sentences": 1
-                    }
-                }
-            },
-            "body": {
-                "chance": {
-                    "paragraph": {
-                        "sentences": 3
-                    }
-                }
-            }
+  "id": "events",
+  "type": "array",
+  "minItems": 5,
+  "maxItems": 5,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "createdTime",
+      "eventTime",
+      "venue",
+      "bannerUrl",
+      "author",
+      "title",
+      "body"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "chance": {
+          "guid": {}
         }
+      },
+      "createdTime": {
+        "type": "string",
+        "faker": {
+          "fake": "{{date.past}}"
+        }
+      },
+      "eventTime": {
+        "type": "string",
+        "faker": {
+          "fake": "{{date.past}}"
+        }
+      },
+      "venue": {
+        "type": "string",
+        "faker": {
+          "fake": "{{address.streetAddress}}, {{address.city}}, {{address.country}}"
+        }
+      },
+      "bannerUrl": {
+        "type": "string",
+        "faker": {
+          "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
+        }
+      },
+      "author": {
+        "type": "object",
+        "required": ["id", "name", "avatarUrl"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "chance": {
+              "guid": {}
+            }
+          },
+          "name": {
+            "type": "string",
+            "faker": {
+              "fake": "{{name.firstName}} {{name.lastName}}"
+            }
+          },
+          "avatarUrl": {
+            "type": "string",
+            "chance": {
+              "avatar": {}
+            }
+          }
+        }
+      },
+      "title": {
+        "type": "string",
+        "chance": {
+          "paragraph": {
+            "sentences": 1
+          }
+        }
+      },
+      "body": {
+        "type": "string",
+        "chance": {
+          "paragraph": {
+            "sentences": 3
+          }
+        }
+      }
     }
+  }
 }

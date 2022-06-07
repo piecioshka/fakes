@@ -1,46 +1,73 @@
 {
-    "id": "videos",
-    "type": "array",
-    "minItems": 20,
-    "mxnItems": 20,
-    "uniqueItems": true,
-    "items": {
-        "type": "object",
-        "required": [
-            "id",
-            "title",
-            "description",
-            "thumbUrl",
-            "videoUrl"
-        ],
-        "properties": {
-            "id": {
-                "chance": {
-                    "guid": {}
-                }
-            },
-            "title": {
-                "type": "string"
-            },
-            "description": {
-                "chance": {
-                    "paragraph": {
-                        "sentences": 1
-                    }
-                }
-            },
-            "thumbUrl": {
-                "type": "string",
-                "faker": {
-                    "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
-                }
-            },
-            "videoUrl": {
-                "type": "string",
-                "faker": {
-                    "fake": "https://www.youtube.com/embed/{{random.alphaNumeric(10)}}"
-                }
-            }
+  "id": "videos",
+  "type": "array",
+  "minItems": 20,
+  "mxnItems": 20,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "description",
+      "author",
+      "thumbUrl",
+      "videoUrl"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "chance": {
+          "guid": {}
         }
+      },
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string",
+        "chance": {
+          "paragraph": {
+            "sentences": 1
+          }
+        }
+      },
+      "author": {
+        "type": "object",
+        "required": ["id", "name", "avatarUrl"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "chance": {
+              "guid": {}
+            }
+          },
+          "name": {
+            "type": "string",
+            "faker": {
+              "fake": "{{name.firstName}} {{name.lastName}}"
+            }
+          },
+          "avatarUrl": {
+            "type": "string",
+            "chance": {
+              "avatar": {}
+            }
+          }
+        }
+      },
+      "thumbUrl": {
+        "type": "string",
+        "faker": {
+          "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
+        }
+      },
+      "videoUrl": {
+        "type": "string",
+        "faker": {
+          "fake": "https://www.youtube.com/embed/{{internet.password(10)}}"
+        }
+      }
     }
+  }
 }
