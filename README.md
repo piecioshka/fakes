@@ -19,21 +19,13 @@ PORT=4000 npm start
 
 ## How to rebuild?
 
-1. Select one of the schemas and copy it:
-  + events.schema.json
-  + photos.schema.json
-  + posts.schema.json
-  + products.schema.json
-  + tasks.schema.json
-  + tweets.schema.json
-  + users.schema.json
-  + videos.schema.json
+1. Select one of the schemas (`schemas/` directory)
 2. Open https://json-schema-faker.js.org/
 3. Paste copied schema to the left
 4. Click the button on the right "Generate"
 5. Copy result from the right
 6. ... and paste to `db.json`
-7. Restart server on https://app.heroku.com
+7. Deploy to Heroku
 
 ## Tools to generate random values
 

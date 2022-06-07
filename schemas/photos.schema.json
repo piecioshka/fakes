@@ -1,8 +1,8 @@
 {
   "id": "photos",
   "type": "array",
-  "minItems": 20,
-  "maxItems": 20,
+  "minItems": 10,
+  "maxItems": 10,
   "items": {
     "type": "object",
     "required": ["id", "createdTime", "author", "description", "imageUrl"],

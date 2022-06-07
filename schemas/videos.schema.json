@@ -1,8 +1,8 @@
 {
   "id": "videos",
   "type": "array",
-  "minItems": 20,
-  "mxnItems": 20,
+  "minItems": 10,
+  "mxnItems": 10,
   "uniqueItems": true,
   "items": {
     "type": "object",
