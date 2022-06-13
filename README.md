@@ -11,6 +11,26 @@ Use `json-server` to build CRUD service with fake data.
   * Without persistence
   * Use [@typicode](https://github.com/typicode/) service [my-json-server](https://my-json-server.typicode.com)
 
+## Example in JavaScript Fetch API
+
+```js
+async function makeRequest(url) {
+    const response = await fetch(url);
+    return response.json();
+}
+
+function getVideos() {
+    return makeRequest('https://fakes.herokuapp.com/videos');
+}
+
+async function main() {
+    const videos = await getVideos();
+    console.log(videos);
+}
+
+main();
+```
+
 ## How to run local?
 
 ```bash
