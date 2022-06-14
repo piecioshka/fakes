@@ -1,11 +1,18 @@
 {
   "id": "users",
   "type": "array",
-  "minItems": 5,
-  "maxItems": 5,
+  "minItems": 35,
+  "maxItems": 35,
   "items": {
     "type": "object",
-    "required": ["id", "name", "avatarUrl"],
+    "required": [
+      "id",
+      "name",
+      "avatarUrl",
+      "login",
+      "password",
+      "__DO_NOT_USE__password"
+    ],
     "properties": {
       "id": {
         "type": "string",
@@ -23,6 +30,25 @@
         "type": "string",
         "chance": {
           "avatar": {}
+        }
+      },
+      "login": {
+        "type": "string",
+        "chance": {
+          "word": {
+            "syllables": 2
+          }
+        }
+      },
+      "password": {
+        "type": "string",
+        "const": "",
+        "$comment": "This field will be build with SHA1"
+      },
+      "__DO_NOT_USE__password": {
+        "type": "string",
+        "faker": {
+          "fake": "{{name.firstName}}{{random.number(100)}}"
         }
       }
     }
