@@ -11,25 +11,22 @@ Use `json-server` to build CRUD service with fake data.
   * Without persistence
   * Use [@typicode](https://github.com/typicode/) service [my-json-server](https://my-json-server.typicode.com)
 
-## Example in JavaScript Fetch API
+## Usage
 
-```js
-async function makeRequest(url) {
-    const response = await fetch(url);
-    return response.json();
-}
-
-function getVideos() {
-    return makeRequest('https://fakes.herokuapp.com/videos');
-}
-
-async function main() {
-    const videos = await getVideos();
-    console.log(videos);
-}
-
-main();
+```bash
+curl https://fakes.herokuapp.com/videos
 ```
+
+[Example in JavaScript](/scripts//request.js)
+
+## Auth
+
+Passwords are hashed using [SHA1](https://en.wikipedia.org/wiki/SHA-1).
+
+* Online generator: https://github.com/emn178/js-sha1
+* npm package: https://www.npmjs.com/package/js-sha1
+
+[Example in JavaScript](/scripts/auth.js)
 
 ## How to run local?
 
@@ -50,5 +47,5 @@ PORT=4000 npm start
 ## Tools to generate random values
 
 * https://fakerjs.dev/
-  + https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.js (is used on https://json-schema-faker.js.org/)
+  + https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.js
 * https://chancejs.com/
