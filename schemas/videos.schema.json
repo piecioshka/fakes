@@ -1,4 +1,5 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema",
   "id": "videos",
   "type": "array",
   "minItems": 10,
@@ -22,7 +23,10 @@
         }
       },
       "title": {
-        "type": "string"
+        "type": "string",
+        "faker": {
+          "fake": "{{company.catchPhrase}}"
+        }
       },
       "description": {
         "type": "string",
