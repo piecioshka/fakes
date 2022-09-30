@@ -10,8 +10,7 @@
   },
   "scripts": {
     "start": "json-server db.json --port $PORT --host 0.0.0.0",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git push -f heroku master"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "json-server": "^0.17.0"

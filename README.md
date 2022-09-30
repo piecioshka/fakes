@@ -4,7 +4,7 @@ Use `json-server` to build CRUD service with fake data.
 
 ## Demo 🚀
 
-* <https://fakes.herokuapp.com>
+* <https://fakes.piecioshka.io>
   * With persistence
   * Use [@typicode](https://github.com/typicode/) package [json-server](https://github.com/typicode/json-server)
 * <https://my-json-server.typicode.com/piecioshka/fakes/>
@@ -14,7 +14,7 @@ Use `json-server` to build CRUD service with fake data.
 ## Usage
 
 ```bash
-curl https://fakes.herokuapp.com/videos
+curl https://fakes.piecioshka.io/videos
 ```
 
 [Example in JavaScript](/scripts//request.js)
@@ -42,7 +42,7 @@ PORT=4000 npm start
 4. Click the button on the right "Generate"
 5. Copy result from the right
 6. ... and paste to `db.json`
-7. Deploy to Heroku
+7. Deploy
 
 ## Tools to generate random values
 
