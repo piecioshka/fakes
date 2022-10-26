@@ -4,7 +4,7 @@ module.exports = {
       name: "fakes",
       script: "start.sh",
       env: {
-        PORT: 8888,
+        PORT: 8080,
       },
     },
   ],
