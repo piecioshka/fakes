@@ -2,8 +2,8 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "id": "events",
   "type": "array",
-  "minItems": 5,
-  "maxItems": 5,
+  "minItems": 12,
+  "maxItems": 12,
   "items": {
     "type": "object",
     "required": [
@@ -12,7 +12,6 @@
       "eventTime",
       "venue",
       "bannerUrl",
-      "author",
       "title",
       "body"
     ],
@@ -37,8 +36,15 @@
       },
       "venue": {
         "type": "string",
-        "faker": {
-          "fake": "{{address.streetAddress}}, {{address.city}}, {{address.country}}"
+        "chance": {
+          "pickone": [
+            [
+              "ul. Podgórska 36, 31-536 Kraków",
+              "ul. Chłodna 51, 00-867 Warszawa",
+              "ul. Norwida 4, 80-280 Gdańsk",
+              "al. Tadeusza Kościuszki 103/105, 90-441 Łódź"
+            ]
+          ]
         }
       },
       "bannerUrl": {
@@ -47,36 +53,10 @@
           "fake": "https://picsum.photos/id/{{random.number(1084)}}/300/150/"
         }
       },
-      "author": {
-        "type": "object",
-        "required": ["id", "name", "avatarUrl"],
-        "properties": {
-          "id": {
-            "type": "string",
-            "chance": {
-              "guid": {}
-            }
-          },
-          "name": {
-            "type": "string",
-            "faker": {
-              "fake": "{{name.firstName}} {{name.lastName}}"
-            }
-          },
-          "avatarUrl": {
-            "type": "string",
-            "chance": {
-              "avatar": {}
-            }
-          }
-        }
-      },
       "title": {
         "type": "string",
-        "chance": {
-          "paragraph": {
-            "sentences": 1
-          }
+        "faker": {
+          "fake": "{{commerce.productName}}"
         }
       },
       "body": {
