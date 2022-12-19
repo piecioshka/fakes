@@ -28,6 +28,16 @@ Passwords are hashed using [SHA1](https://en.wikipedia.org/wiki/SHA-1).
 
 [Example in JavaScript](/scripts/auth.js)
 
+## How to run on production with `PM2`?
+
+1. Create a file `ecosystem.config.js`
+2. Run command:
+
+  ```bash
+  > cd fakes/
+  > pm2 start ecosystem.config.js
+  ```
+
 ## How to run local?
 
 ```bash
