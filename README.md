@@ -2,14 +2,9 @@
 
 Use `json-server` to build CRUD service with fake data.
 
-## Demo 🚀
+## Demo 🎉
 
-* <https://fakes.piecioshka.io>
-  * With persistence
-  * Use [@typicode](https://github.com/typicode/) package [json-server](https://github.com/typicode/json-server)
-* <https://my-json-server.typicode.com/piecioshka/fakes/>
-  * Without persistence
-  * Use [@typicode](https://github.com/typicode/) service [my-json-server](https://my-json-server.typicode.com)
+<https://fakes.piecioshka.io>
 
 ## Usage
 
