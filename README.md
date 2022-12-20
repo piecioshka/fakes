@@ -17,7 +17,7 @@ Use `json-server` to build CRUD service with fake data.
 curl https://fakes.piecioshka.io/videos
 ```
 
-[Example in JavaScript](/scripts//request.js)
+[Example in JavaScript](/demo/request.demo.js)
 
 ## Auth
 
@@ -26,7 +26,7 @@ Passwords are hashed using [SHA1](https://en.wikipedia.org/wiki/SHA-1).
 * Online generator: https://github.com/emn178/js-sha1
 * npm package: https://www.npmjs.com/package/js-sha1
 
-[Example in JavaScript](/scripts/auth.js)
+[Example in JavaScript](/demo/auth.demo.js)
 
 ## How to run on production with `PM2`?
 
