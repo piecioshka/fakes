@@ -28,7 +28,7 @@ Passwords are hashed using [SHA1](https://en.wikipedia.org/wiki/SHA-1).
 
 [Example in JavaScript](/demo/auth.demo.js)
 
-## How to run on production with `PM2`?
+## How to run with `PM2`?
 
 1. Create a file `ecosystem.config.js`
 2. Run command:
