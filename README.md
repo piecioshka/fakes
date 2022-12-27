@@ -29,7 +29,7 @@ Passwords are hashed using [SHA1](https://en.wikipedia.org/wiki/SHA-1).
 pm2 start ecosystem.config.js
 ```
 
-## How to run local?
+## How to run on local?
 
 ```bash
 PORT=4000 npm start
