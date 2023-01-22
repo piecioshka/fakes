@@ -2,7 +2,7 @@
 
 Use `json-server` to build CRUD service with fake data.
 
-## Demo 🎉
+## Preview 🎉
 
 <https://fakes.piecioshka.io>
 
