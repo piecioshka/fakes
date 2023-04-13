@@ -1,14 +1,22 @@
 require("isomorphic-fetch");
 const sha1 = require("js-sha1");
 
-async function auth(login, password) {
-  const hashedPassword = sha1(password);
-  const response = await fetch("https://fakes.piecioshka.io/users/");
-  const users = await response.json();
-  const authorizedUser = users.find((user) => {
-    return user.login === login && user.password === hashedPassword;
-  });
-  console.log({ authorizedUser });
+const USERS_URL = "https://fakes.piecioshka.io/users/";
+const EMAIL = "BrandonCrona30@hotmail.com";
+const PASSWORD = "Virginia99";
+
+async function makeRequest(url, options) {
+  const response = await fetch(url, options);
+  return response.json();
 }
 
-auth("kepgaw", "Yesenia123");
+async function authenticate(email, password) {
+  const hashedPassword = sha1(password);
+  const users = await makeRequest(USERS_URL);
+  const authenticatedUser = users.find((user) => {
+    return user.email === email && user.password === hashedPassword;
+  });
+  console.log({ authenticatedUser });
+}
+
+authenticate(EMAIL, PASSWORD);

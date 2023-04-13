@@ -22,7 +22,7 @@
       },
       "author": {
         "type": "object",
-        "required": ["id", "name", "avatarUrl"],
+        "required": ["id", "name", "avatarUrl", "email"],
         "properties": {
           "id": {
             "type": "string",
@@ -40,6 +40,13 @@
             "type": "string",
             "chance": {
               "avatar": {}
+            }
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "faker": {
+              "internet.email": ["#{name}"]
             }
           }
         }

@@ -10,7 +10,7 @@
       "id",
       "name",
       "avatarUrl",
-      "login",
+      "email",
       "password",
       "__DO_NOT_USE__password"
     ],
@@ -33,12 +33,11 @@
           "avatar": {}
         }
       },
-      "login": {
+      "email": {
         "type": "string",
-        "chance": {
-          "word": {
-            "syllables": 2
-          }
+        "format": "email",
+        "faker": {
+          "internet.email": ["#{name}"]
         }
       },
       "password": {

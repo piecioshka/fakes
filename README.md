@@ -12,7 +12,7 @@ Use `json-server` to build CRUD service with fake data.
 curl https://fakes.piecioshka.io/videos
 ```
 
-[Example in JavaScript](/demo/request.demo.js)
+[Example in JavaScript](/demo/videos.demo.js)
 
 ## Auth
 
